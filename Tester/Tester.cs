@@ -42,5 +42,11 @@ namespace Tester
 
             Assert.Equal("Beer", purchaseDrink);
         }
+
+        [Fact]
+        public void TestaEmptyString()
+        {
+            Assert.Equal(String.Empty, "");
+        }
     }
 }
